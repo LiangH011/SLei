@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>留言系统</title>
+		<link rel="stylesheet" type="text/css" href="css/comm.css"/>
+		<script src="js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+<body id="news">
+		<!--头部开始-->
+		<header class="header">
+			<div class="top-left">
+				<a href="index.html">
+					<img src="images/logo.png" class="logo"/>
+					<p>森磊建筑装饰工程有限公司</p>
+				</a>
+				
+			</div>
+		</header>
+		<!--头部结束-->
+		
+		<!--导航开始-->
+		<ul class="nav">
+			<li ><a href="index.html" >首页</a></li>
+			<li><a href="introduce.html" >公司介绍</a></li>
+			<li><a href="manage.html">产品管理</a></li>
+			<li><a href="news.html">新闻动态</a></li>
+			<li><a href="download.html">下载专区</a></li>
+			<li><a href="invite.html">人才招聘</a></li>
+			<li><a href="contact.html" >联系我们</a></li>
+			<li><a href="message.html"  style="color:#ff0000; border-bottom:4px solid #979696;">留言系统</a></li>
+		</ul>
+		<!--导航结束-->
+		
+		<!--轮播开始-->
+		<div class="banner">
+			<div class="bannerImg">
+				<a href="product.html"><img src="images/banner1.jpg"></a>
+				<a href="product.html"><img src="images/banner2.jpg"></a>
+				<a href="product.html"><img src="images/banner3.jpg"></a>
+				<a href="product.html"><img src="images/banner4.jpg"></a>
+				<a href="product.html"><img src="images/banner5.jpg"></a>
+			</div>
+			<div class="banner-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<!--轮播结束-->
+		
+		<!--内容开始-->
+		<div class="content">
+			<!--主要开始-->
+			<div class="main-left">
+				<!--文章分类开始-->
+				<div class="goods">
+					<div class="title">最新留言</div>
+				</div>
+				<!--文章分类结束-->
+			</div>
+			<!--主要结束-->
+			<!--产品管理开始-->
+				<div class="contact-wrap" style="margin: 10px 0;">
+					<div class="title">留言</div>
+					<div class="message-content">
+						<form action="index.html"  id="message-form">
+							<div class="nickname">
+								<span><b>*</b>昵称：</span>
+								<input type="text" class="username" value=""/>
+								<span class="tip"> 名称必填</span>
+							</div>
+							<div class="liuyan">
+								<span><b>*</b>留言内容：</span>
+								<textarea></textarea>
+								<span class="tip">留言必填</span>
+							</div>
+							<div class="phone">
+								<span>联系电话：</span>
+								<input type="text" class="phoneNum" value=""/>
+							</div>
+							<div class="xinbie">
+								<span>性别：</span>
+								<label><input type="radio" class="male" name="sex"/ >男</label>
+								<label><input type="radio" class="female" name="sex"/ >女</label>
+							</div>
+							<div class="yam">
+								<span><b>*</b>验证码：</span>
+								<input type="text" class="yzmVarify" value=""/>
+								<div class="yzmNum"></div>
+								<span class="tip">请输入正确验证码</span>
+							</div>
+							<div class="btn">
+								<input type="submit" class="sub-btn"/>
+								<input type="reset" class="reset-btn"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			<!--产品管理结束-->
+		</div>
+		<!--内容结束-->
+		
+		<!--底部开始-->
+		<footer class="footer">
+			<a href="contact.html">联系我们</a>
+			| 
+			<a href="introduce.html">公司介绍</a>
+			|
+			<a href="news.html">网站新闻</a>
+			|
+			<a href="message.html">留言系统</a>
+			|
+			<a href="link.html">友情链接</a>
+		</footer>
+		<!--底部结束-->
+		
+	</body>
+</html>

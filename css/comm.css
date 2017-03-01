@@ -1,0 +1,197 @@
+/***********公共************/
+*{margin: 0;padding: 0;}
+html,body{width:960px;margin:0 auto; font-family: "微软雅黑";background:url(../images/bg.gif) repeat;font-size: 12px;}
+ul,ol,li{list-style: none;}
+a{text-decoration: none;color: #666;}
+
+/*头部*/
+.header{width:100%;height:100px;margin: 20px 0;}
+.header .top-left{width:200px;height: 100%;float: left;}
+.header .top-left a{color: #666;}
+.header .top-left .logo{display: block;width:60px;height: 60px;margin:0 auto;}
+.header .top-left a>p{width: 100%;height: 30px;text-align: center;line-height: 30px;font-size: 14px;margin-top:5px;}
+.header .top-right{width: 20%;float:right;height: 100%;line-height: 100px;}
+.header .top-right .login{color: #666;font-size: 16px;padding-right: 10px;} 
+.header .top-right .regist{color: #666;font-size: 16px;padding-left: 10px;} 
+
+/*导航*/
+.nav{width: 100%;height: 40px;border-bottom: 4px solid #cdcdcd;}
+.nav li{width: 12.5%;height: 40px;float: left;text-align: center;line-height: 40px;}
+.nav li a{color: #999;font-size: 16px;display: block;width: 100%;height: 100%;font-weight: 600;}
+.nav li a:hover{color: #ff0000;border-bottom: 4px solid #979696;}
+/*轮播*/
+.banner{width:952px;height: 360px;border: 4px solid #cdcdcd;margin-top: 10px;overflow: hidden;position: relative;}
+.banner .bannerImg{width: 500%;height: 100%;position: absolute;left: 0;}
+.bannerImg a{display: block;height: 100%;float: left;}
+.bannerImg img{display: block;width: 100%;height: 100%;}
+.banner .banner-icon{width: 100%;height: 20px;line-height: 20px;position: absolute;bottom: 10px;text-align: center;}
+.banner-icon span{display:inline-block;width: 16px;height: 16px;border-radius: 50%;background: #000;z-index: 999;cursor: pointer;}
+
+
+/*****内容******/
+.content{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+.main{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+.content .title{width:97%;height:32px;line-height: 32px;padding-left:30px; background: url(../images/title.jpg) no-repeat;color: #000;}
+.content .title a{display: inline-block;float: right;color: #555;margin-right: 10px;}
+
+/*产品分类*/
+.goods{width: 25%;height: auto;overflow: hidden;  float: left;font-size: 14px;}
+.goods ul{width:90%;height: auto;overflow: hidden;margin: 10px auto;}
+.goods ul li{width: 90%;padding-left: 10px; height: 20px;line-height: 20px;margin-bottom: 10px;background: url(../images/li-style.jpg) no-repeat 0px center;overflow: hidden;}
+
+/*公司介绍*/
+.company{width: 45%;height: auto;overflow: hidden;float: left;margin: 0px 2.5%;font-size: 14px;}
+.company .company-intro{width: 90%;height: auto;margin: 0 auto;overflow: hidden;word-break: break-word;font-size: 14px;padding: 10px 0;line-height: 30px;}
+.company-intro img{width: 169px;height: 111px;border: 0;float: left;}
+
+/*最新资讯*/
+.news{width: 25%;float: left;height: auto;overflow: hidden;font-size: 14px;}
+.news ul{width:90%;height: auto;overflow: hidden;margin: 10px auto;}
+.news ul li{width: 90%;padding-left: 10px; height: 20px;line-height: 20px;margin-bottom: 10px;background: url(../images/li-style.jpg) no-repeat 0px center;overflow: hidden;}
+.news ul li span{float: right;}
+
+/*最新产品开始*/
+.newPro{width: 100%;height: 200px;margin-bottom: 20px;}
+.newPro-content{width: 100%;height:140px; margin-top: 10px;overflow: hidden;position: relative;}
+.newPro-wrap{width:500%;height:140px;margin: 0 auto; margin-top: 10px;overflow: hidden;position: absolute;left: 0px;}
+.newProimg{width: 960px; height:140px;float: left;}
+.newProimg a{display: block;width:135px;height: 140px;float: left;color: #000;font-size: 14px;text-align: center;}
+.newProimg img{display: block;width: 120px;height: 90px;margin:0 auto;border: 1px solid #CDCDCD;margin-bottom: 10px;}
+.newProimg2{float:left;}
+.newProimg2 a{display: block;width:135px;height: 140px;float: left;color: #000;font-size: 14px;text-align: center;}
+.newProimg2 img{display: block;width: 120px;height: 90px;margin:0 auto;border: 1px solid #CDCDCD;margin-bottom: 10px;}
+/*底部*/
+.footer{width: 100%;height: 45px;line-height: 45px;text-align: center;background: #5c5c5c;color: #fff;font-size: 14px;}
+.footer a{display: inline-block;color: #fff;font-size: 14px;margin: 0px 5px;}
+
+
+/***************公司介绍****************/
+#introduce .company{width:70%;height: auto;overflow: hidden;float: right;font-size: 14px;}
+#introduce .main-left{width:25%;height: auto ;overflow: hidden; float: left;}
+#introduce .aboutUs{width: 100%; height: auto;overflow: hidden; font-size: 14px;}
+#introduce .aboutUs ul{width:90%;height: auto;overflow: hidden;margin: 10px auto;}
+#introduce .aboutUs ul li{width: 90%;padding-left: 10px; height: 20px;line-height: 20px;margin-bottom: 10px;background: url(../images/li-style.jpg) no-repeat 0px center;overflow: hidden;}
+#introduce .contact{width:100%;height: auto;overflow: hidden;margin: 10px auto;}
+#introduce .contact-content{width:96%;height: auto;overflow: hidden;margin: 10px auto;}
+#introduce .contact-content p{line-height: 22px;font-size: 14px;color: #000;}
+
+/*产品管理*/
+#manage .main-left{width:25%;height: auto ;overflow: hidden; float: left;}
+#manage .main-left .title{width: 88%;}
+#manage .goods{width:100%;}
+#manage .contact{width:100%;height: auto;overflow: hidden;margin: 10px auto;}
+#manage .contact-content{width:96%;height: auto;overflow: hidden;margin: 10px auto;}
+#manage .contact-content p{line-height: 22px;font-size: 14px;color: #000;}
+#manage .goodsMange{width: 73%;height: auto;overflow: hidden; float: right;}
+#manage .pro-img{width: 98%;height: auto;overflow: hidden;margin: 10px auto;}
+#manage .pro-img a{display: block;width:135px;height: 140px;float: left;color: #000;font-size: 14px;text-align: center;}
+#manage .pro-img img{display: block;width: 120px;height: 90px;margin:0 auto;border: 1px solid #CDCDCD;margin-bottom: 10px;}
+
+/*新闻动态*/
+#news .main-left{width: 25%;height: auto;overflow: hidden;float: left;}
+#news .main-left .title{width: 88%;}
+#news .goods{width:100%;margin: 10px 0;}
+#news .goods-wrap{width:230px;height: 150px;border: 4px solid #cdcdcd;margin: 0 auto; margin-top: 10px;overflow: hidden;position: relative;}
+#news .goods-wrap .goodsImg{width: 500%;height: 100%;position: absolute;left: 0;}
+#news .goodsImg a{width:230px; display: block;height: 100%;float: left;}
+#news .goodsImg img{display: block;width: 100%;height: 100%;}
+#news .goods-wrap .goods-icon{width: 100%;height: 20px;line-height: 20px;position: absolute;bottom:8px;text-align: center;}
+#news .goods-icon span{display:inline-block;width: 10px;height: 10px;border-radius: 50%;background: #000;z-index: 999;cursor: pointer;}
+#news .news-wrap{width: 70%;height: auto;overflow: hidden;float: right;}
+#news .news-list{width: 98%;height: auto;overflow: hidden;margin: 10px auto;}
+#news .news-title{width: 100%; height:30px;line-height: 30px;color: #666;font-size: 12px;border-bottom: 1px dashed #CDCDCD;}
+#news .news-title span{float: right;margin-right:30px;}
+#news .news-list ul{width:100%;height: auto;overflow: hidden;margin: 10px auto;}
+#news .news-list ul li{width:96%;padding-left: 10px; height: 30px;line-height: 30px;margin-bottom: 10px;background: url(../images/li-style.jpg) no-repeat 0px center;overflow: hidden;
+	border-bottom: 1px dashed #ccc;}
+#news .news-list ul li span{float: right;}
+#news .news-list ul li b{font-style: normal;color: #999;padding: 0 5px;}
+#news .page{width: 100%;height: 30px;line-height: 30px;text-align: center;margin: 10px 0;}
+#news .page a{color: #555;font-size: 14px;margin: 0 10px;}
+
+/*下载专区*/
+#download .down-wrap{width: 70%;height: auto;overflow: hidden;float: right;}
+#download .down-list{width: 98%;height: auto;overflow: hidden;margin: 10px auto;}
+#download .down-title{width: 100%; height:30px;line-height: 30px;color: #666;font-size: 12px;border-bottom: 1px dashed #CDCDCD;}
+#download .down-title .down-other{float: right;}
+#download .down-title .dowNum{float: left;margin-right:40px;}
+#download .down-title .size{float: left;margin-right:40px;}
+#download .down-title .fabu{float: left;margin-right:30px;}
+#download .down-list ul{width:100%;height: auto;overflow: hidden;margin: 10px auto;}
+#download .down-list ul li{width:96%;padding-left: 10px; height: 30px;line-height:30px;margin-bottom: 10px;background: url(../images/li-style.jpg) no-repeat 0px center;overflow: hidden;
+	border-bottom: 1px dashed #ccc;}
+#download .down-list ul li .down-other{float: right;}
+#download .down-list ul li .dowNum{float: left;margin-right:59px;}
+#download .down-list ul li .size{float: left;margin-right:0px;}
+#download .down-list ul li .time{float: right;margin-left: 18px;}
+#download .down-list ul li b{font-style: normal;color: #999;padding: 0 5px;}
+#download .page{width: 100%;height: 30px;line-height: 30px;text-align: center;margin: 10px 0;}
+#download .page a{color: #555;font-size: 14px;margin: 0 10px;}
+
+/*下载内容*/
+#download .main-right{width: 70%;height: auto;overflow: hidden;float: right;}
+#download .down-file{width: 100%;height: auto;overflow: hidden;}
+#download .title a{float: right;padding-right: 10px;color: #999;}
+#download .file-content{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+#download .file-content .file-img{width: 270px;height:210px;float: left;border:4px solid #CDCDCD;}
+#download .file-content .file-img img{display: block;max-width: 100%;height: 100%;margin:auto;}
+#download .file-content .file-info{width: 50%;height: auto;overflow: hidden;float: right;}
+#download .file-info>p{color: #f00000;font-size: 14px;height: 30px;line-height: 30px;}
+#download .file-info>ul{width: 100%;height: auto;overflow: hidden;}
+#download .file-info li{width: 100%;height: 30px;line-height: 30px;color: #000000;border-bottom: 1px dashed #CDCDCD;}
+#download .file-info li span{color: #999;padding-left: 10px;}
+#download .file-dow{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+#download .filedow-content{width: 100%;height:40px;line-height:30px;margin-top:10px;}
+#download .filedow-content span{display:block;color: #999;margin-right: 10px;float: left;}
+#download .filedow-content a{display: block;float: left; width:87px;height:27px;line-height: 27px;background: url(../images/filedow-ico.png) no-repeat;text-align: center;color: #555;margin-top: 5px;}
+#download .file-disc{width: 100%;height: auto;overflow: hidden;}
+#download .file-disc .filedis-main{color: #000000;line-height: 30px;}
+
+
+/*人才招聘*/
+#download .down-list li b{font-style: normal; color: #999;margin:0 5px;}
+#download .down-list .job span{display: inline-block;width: 70px;text-align: left;}
+#download .down-list li .job-info span{display: inline-block;width: 70px;text-align: center;}
+
+/*联系我们*/
+#news .contact-wrap{width: 70%;height: auto;overflow: hidden;float: right;}
+#news .contact-wrap .contact-content{width: 96%;height: auto;overflow: hidden;padding-left: 4%;}
+#news .contact-wrap .contact-content p{line-height: 30px;font-size: 14px;}
+
+/*留言系统*/
+.message-content{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+#message-form>div{width: 100%;height: 40px;line-height: 40px;margin-bottom: 10px;color: #999;line-height: 40px;}
+#message-form>div>span{width: 120px;text-align: right;display: inline-block;}
+#message-form>div>input{width: 150px;height:24px;border: 1px solid #cdcdcd;padding-left: 10px;line-height: 24px;display: inline-block;outline: none;}
+#message-form>div b{color: red;}
+#message-form .liuyan{width: 100%;height:110px;}
+#message-form .liuyan span{display: inline-block;position: relative;top:-88px;font-style: normal;}
+#message-form .liuyan .tip{display: inline-block;position: relative;top:-88px;font-style: normal;}
+#message-form .liuyan textarea{width: 200px;height: 100px;border: 1px solid #cdcdcd;color:#999;outline: auto;display:inline-block;padding-left: 10px;}
+#message-form .yzmNum{display: inline-block;width: 100px;height: 24px;line-height: 24px;text-align: center;border: 1px solid #000;color: #000;cursor: pointer;}
+#message-form .btn{width:80%;margin-left:20%;}
+#message-form .btn input{display:inline-block;width: 50px;height: 24px;line-height: 24px;text-align: center;}
+#message-form .messTip{border:1px solid red;background: lightgoldenrodyellow;color: red;}
+#message-form .tip{display: inline-block;width: 120px;height: 24px;line-height: 24px;text-align: center;}
+
+/*友情链接*/
+.partner{width: 100%;height: auto;overflow: hidden;padding-left: 10px;}
+
+/*职位介绍*/
+#job{width: 70%;height: auto;overflow: hidden;float: right;margin: 10px 0;}
+.job{width: 100%;height: auto;overflow: hidden;}
+#job .job-intro{width: 100%;height: auto;overflow: hidden;margin: 10px 0;}
+#job .job-title{color: #999;}
+#job .job-title b{color: #000;font-size: 14px;font-style: normal;}
+#job .job-title span{float: right;}
+#job .job-intro ul{width: 70%;height: auto;overflow: hidden;margin: 10px 0;}
+#job .job-intro ul li{width: 100%;height: 30px;line-height: 30px;margin-bottom: 10px;}
+#job .job-intro ul li span{display: inline-block;width: 200px; float: right;text-align: left;}
+#job .job-dis,.job-xy{width: 100%;height: auto;overflow: hidden;margin: 10px 0;margin-bottom: 20px;}
+
+
+/*产品详情*/
+#product ul li span{color: red!important;font-size: 16px;}
+#product ul li b{font-style: normal; color: #3AA000!important;font-size: 14px;}
+#product .down-pro{display: block;width: 50px;height: 30px;line-height: 30px;text-align: center;border: 1px solid #555;background: #eee;margin-top: 10px;border-radius: 10px;color: red;}
+#product .down-pro:hover{background: lightgoldenrodyellow;}
